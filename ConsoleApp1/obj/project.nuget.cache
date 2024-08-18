@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NaeX2iBWhAQ=",
+  "dgSpecHash": "9d1ztmS1woA=",
   "success": true,
-  "projectFilePath": "D:\\DEV\\2-C#\\YellowSubmarine\\ySubmarine\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "D:\\DEV\\2-C#\\YellowSubmarine\\ySubmarine\\ySubmarine\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cauan\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\cauan\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

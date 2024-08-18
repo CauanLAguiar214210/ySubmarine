@@ -4,7 +4,7 @@ namespace ConsoleApp1
 {
     internal class ConnectionManager
     {
-        private static string ConnStr = @"Integrated Security = SSPI; Persist Security Info=False;Initial Catalog = ySubmarine; Data Source = CAPPUCCINO";
+        private static string ConnStr = @"Integrated Security = SSPI; Persist Security Info=False;Initial Catalog = ySubmarine; Data Source = ";
 
         public static SqlConnection GetSqlConnection()
         {
