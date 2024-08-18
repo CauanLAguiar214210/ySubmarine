@@ -10,14 +10,45 @@ namespace ConsoleApp1.Entities
         public string Nome { get; set; }
         public WorkerLevel WorkerLevel { get; set; }
         public double Salario { get; set; }
+        public string Departamento { get; set; }
         public int DepartamentoId { get; set; }
 
-        public Funcionario(string name, double salary, int departamento, WorkerLevel workerLevel)
+        public Dictionary<string, int> departamentoIds = new Dictionary<string, int>
+        {
+        { "VENDAS", 19 },
+        { "QUALIDADE", 20 },
+        { "QA", 20 },
+        { "LIMPEZA", 22 },
+        { "RH", 23 },
+        { "SEGURANÇA", 24 },
+        { "TRANSPORTE", 25 },
+        { "ADMINISTRAÇÃO", 26 },
+        { "FINANCEIRO", 27 },
+        { "CONTÁBIL", 28 },
+        { "PRODUÇÃO", 29 },
+        { "TECNOLOGIA DA INFORMAÇÃO", 30 },
+        { "TI", 30 },
+        { "JURÍDICO", 31 },
+        { "PESQUISA", 32 },
+        { "SUPRIMENTOS", 33 },
+        { "SERVICE DESK", 34 }
+        };
+
+        public Funcionario(string name, double salary, string departamento, WorkerLevel workerLevel)
         {
             Nome = name.ToUpper();
             Salario = salary;
-            DepartamentoId = departamento;
+            Departamento = departamento.ToUpper();
             WorkerLevel = workerLevel;
+
+            if (departamentoIds.TryGetValue(Departamento, out int deptId))
+            {
+                DepartamentoId = deptId;
+            }
+            else
+            {
+                throw new Exception("Departamento inválido: " + departamento);
+            }
         }
 
         public static void CadastrarFuncionarios(SqlConnection connection)
@@ -35,7 +66,7 @@ namespace ConsoleApp1.Entities
                 string nome = Console.ReadLine();
 
                 Console.Write("Departamento: ");
-                int depart = int.Parse(Console.ReadLine());
+                string depart = Console.ReadLine();
 
                 Console.Write("Nivel: (0)Junior (1)Pleno (2)Senior \nSelecione:");
                 int lvl = int.Parse(Console.ReadLine());
@@ -45,11 +76,11 @@ namespace ConsoleApp1.Entities
                 double salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
                 listFuncionarios.Add(new Funcionario(nome, salario, depart, level));
-
-                foreach (var funcionario in listFuncionarios)
-                {
-                    funcionario.SalvarNoBanco(connection);
-                }
+                
+            }
+            foreach (var funcionario in listFuncionarios)
+            {
+                funcionario.SalvarNoBanco(connection);
             }
         }
         public void SalvarNoBanco(SqlConnection connection)
@@ -77,7 +108,7 @@ namespace ConsoleApp1.Entities
         }
         public static void ListarBanco(SqlConnection connection)
         {
-            string query = "SELECT * FROM vwFuncionariosDepartamentos";
+            string query = "SELECT * FROM vwFuncionariosDepartamentos order by DepartamentoNome";
             using (SqlCommand command = new SqlCommand(query, connection))
             {
                 try
@@ -88,8 +119,8 @@ namespace ConsoleApp1.Entities
                     adapter.Fill(dataset);
                     var rows = dataset.Tables[0].Rows;
                     foreach (DataRow item in rows)
-                    {                        
-                        var colunas = item.ItemArray;                        
+                    {
+                        var colunas = item.ItemArray;
                         Console.WriteLine($"Nome: {colunas[0]}, WorkerLevel: {colunas[1]}, Salario: {colunas[2]}, Departamento: {colunas[3]}");
                     }
                 }
