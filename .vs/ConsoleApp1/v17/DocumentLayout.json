@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DEV\\2-C#\\YellowSubmarine\\ySubmarine\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB63AA39-E672-46A5-A0D7-218E1DCAD9AE}|ConsoleApp1\\ConsoleApp1.csproj|d:\\dev\\2-c#\\yellowsubmarine\\ysubmarine\\consoleapp1\\consoleapp1\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB63AA39-E672-46A5-A0D7-218E1DCAD9AE}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB63AA39-E672-46A5-A0D7-218E1DCAD9AE}|ConsoleApp1\\ConsoleApp1.csproj|d:\\dev\\2-c#\\yellowsubmarine\\ysubmarine\\consoleapp1\\consoleapp1\\entities\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB63AA39-E672-46A5-A0D7-218E1DCAD9AE}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\entities\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB63AA39-E672-46A5-A0D7-218E1DCAD9AE}|ConsoleApp1\\ConsoleApp1.csproj|d:\\dev\\2-c#\\yellowsubmarine\\ysubmarine\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB63AA39-E672-46A5-A0D7-218E1DCAD9AE}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB63AA39-E672-46A5-A0D7-218E1DCAD9AE}|ConsoleApp1\\ConsoleApp1.csproj|d:\\dev\\2-c#\\yellowsubmarine\\ysubmarine\\consoleapp1\\consoleapp1\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB63AA39-E672-46A5-A0D7-218E1DCAD9AE}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB63AA39-E672-46A5-A0D7-218E1DCAD9AE}|ConsoleApp1\\ConsoleApp1.csproj|d:\\dev\\2-c#\\yellowsubmarine\\ysubmarine\\consoleapp1\\consoleapp1\\entities\\enum\\workerlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB63AA39-E672-46A5-A0D7-218E1DCAD9AE}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\entities\\enum\\workerlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WorkerLevel.cs",
+              "DocumentMoniker": "D:\\DEV\\2-C#\\YellowSubmarine\\ySubmarine\\ConsoleApp1\\ConsoleApp1\\Entities\\Enum\\WorkerLevel.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Entities\\Enum\\WorkerLevel.cs",
+              "ToolTip": "D:\\DEV\\2-C#\\YellowSubmarine\\ySubmarine\\ConsoleApp1\\ConsoleApp1\\Entities\\Enum\\WorkerLevel.cs",
+              "RelativeToolTip": "ConsoleApp1\\Entities\\Enum\\WorkerLevel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T19:10:07.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Funcionario.cs",
+              "DocumentMoniker": "D:\\DEV\\2-C#\\YellowSubmarine\\ySubmarine\\ConsoleApp1\\ConsoleApp1\\Entities\\Funcionario.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Entities\\Funcionario.cs",
+              "ToolTip": "D:\\DEV\\2-C#\\YellowSubmarine\\ySubmarine\\ConsoleApp1\\ConsoleApp1\\Entities\\Funcionario.cs",
+              "RelativeToolTip": "ConsoleApp1\\Entities\\Funcionario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T19:09:24.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Departamento.cs",
+              "DocumentMoniker": "D:\\DEV\\2-C#\\YellowSubmarine\\ySubmarine\\ConsoleApp1\\ConsoleApp1\\Entities\\Departamento.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Entities\\Departamento.cs",
+              "ToolTip": "D:\\DEV\\2-C#\\YellowSubmarine\\ySubmarine\\ConsoleApp1\\ConsoleApp1\\Entities\\Departamento.cs",
+              "RelativeToolTip": "ConsoleApp1\\Entities\\Departamento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T17:16:13.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConnectionManager.cs",
+              "DocumentMoniker": "D:\\DEV\\2-C#\\YellowSubmarine\\ySubmarine\\ConsoleApp1\\ConsoleApp1\\ConnectionManager.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\ConnectionManager.cs",
+              "ToolTip": "D:\\DEV\\2-C#\\YellowSubmarine\\ySubmarine\\ConsoleApp1\\ConsoleApp1\\ConnectionManager.cs",
+              "RelativeToolTip": "ConsoleApp1\\ConnectionManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T17:15:39.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DEV\\2-C#\\YellowSubmarine\\ySubmarine\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "D:\\DEV\\2-C#\\YellowSubmarine\\ySubmarine\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T17:13:55.89Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
